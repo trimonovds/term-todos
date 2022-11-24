@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug TermTodos",
+            "program": "${workspaceFolder:TermTodos}/.build/debug/TermTodos",
+            "args": [],
+            "cwd": "${workspaceFolder:TermTodos}",
+            "preLaunchTask": "swift: Build Debug TermTodos"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release TermTodos",
+            "program": "${workspaceFolder:TermTodos}/.build/release/TermTodos",
+            "args": [],
+            "cwd": "${workspaceFolder:TermTodos}",
+            "preLaunchTask": "swift: Build Release TermTodos"
+        }
+    ]
+}
